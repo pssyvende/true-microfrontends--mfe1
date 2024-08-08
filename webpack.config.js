@@ -5,7 +5,7 @@ module.exports = withModuleFederationPlugin({
   name: 'true-microfrontends--mfe1',
 
   exposes: {
-    './Component': './src/app/app.component.ts',
+    './Module': './src/app/feature-a/feature-a.module.ts',
   },
 
   shared: {
